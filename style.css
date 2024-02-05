@@ -1,0 +1,57 @@
+@media (min-width: 200px) {
+.card-white {
+  background-color: rgb(255, 255, 255);
+  font-family: Arial, monospace ,sans-serif;
+  color: rgb(138, 133, 133);
+  line-height: normal;
+  margin: 20px;
+  padding: 4px;
+  box-shadow: 0px 10px 10px 5px rgb(150, 150, 150);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  margin: 20px;
+  display: inline-block;
+  text-align: center;
+  background-color: beige;
+  color: black;
+}
+
+.list-inline li i {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-size: 25px;
+}
+
+
+.list-inline > li i:hover {
+  color: rgb(250, 3, 3);
+}
+
+h1 {
+  color: rgb(62, 62, 73);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#profile_picture {
+  border-radius: 40px;
+  width: 120px;
+  border-color: bisque 1px;
+}
+
+.center-text {
+  text-decoration: blink;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  text-emphasis: none;
+}
+}
