@@ -1,18 +1,31 @@
-@media (min-width: 200px) {
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:400,700");
+
+
+@media (min-width: 200px)
+{
+
+.background-image {
+  background-image: url(https://cdn.pixabay.com/animation/2023/12/03/19/30/19-30-58-263_512.gif);
+  padding: 1em;
+}
+
 .card-white {
   background-color: rgb(255, 255, 255);
   font-family: Arial, monospace ,sans-serif;
   color: rgb(138, 133, 133);
   line-height: normal;
-  margin: 20px;
+  margin: 20px auto;
   padding: 4px;
-  box-shadow: 0px 10px 10px 5px rgb(150, 150, 150);
+  box-shadow: 0px 10px 5px 5px rgb(135, 130, 130);
   text-align: center;
   border-radius: 5px;
+  width: 700px;
+  padding: 1em;
 }
 
 .list-inline {
   padding-left: 0px;
+  margin: 0px;
 }
 
 .list-inline > li {
@@ -26,7 +39,7 @@
 .list-inline li i {
   background-color: rgb(255, 255, 255);
   color: black;
-  font-size: 25px;
+  font-size: 55px;
 }
 
 
@@ -34,15 +47,10 @@
   color: rgb(250, 3, 3);
 }
 
-h1 {
-  color: rgb(62, 62, 73);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 #profile_picture {
   border-radius: 40px;
-  width: 120px;
-  border-color: bisque 1px;
+  width: 250px;
+  border-color: rgb(0, 0, 0) 10px;
 }
 
 .center-text {
@@ -50,7 +58,25 @@ h1 {
   text-align: center;
 }
 
-a {
+.bigger-emoji {
+  font-size: 100px;
+  margin: 0px;
+}
+
+.call-to-action {
+  text-decoration: none;
+  color: whitesmoke;
+  background: #090909;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+.call-to-action:hover {
+  background-color: rgb(250, 3, 3);
+}
+
+
+li > a {
   text-decoration: none;
   text-emphasis: none;
 }
